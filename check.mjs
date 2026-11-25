@@ -19,4 +19,7 @@ if (periods !== 1) throw new Error(`expected exactly 1 period, found ${periods}`
 if (!out.endsWith(".")) throw new Error("sentence does not end with a period");
 // UTF-8 round-trip check.
 if (Buffer.from(out, "utf8").toString("utf8") !== out) throw new Error("not valid UTF-8");
+// The gate reads the text exactly as written: no trailing newline or
+// surrounding whitespace may ride along with the sentence.
+if (out !== out.trim()) throw new Error("leading or trailing whitespace in entry");
 console.log(`OK: ${chars} chars, ${Buffer.byteLength(out, "utf8")} bytes, exact match, one sentence`);
