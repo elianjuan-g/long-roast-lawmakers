@@ -8,7 +8,7 @@ An entry for the [make.fun bounty "The Long Roast: Lawmakers and the File They C
 
 ## The entry
 
-> The senator who wrote the bill criminalizing AI deepfakes still cannot turn a document into a PDF, so he emails his staff a photo of his monitor instead.
+> He sponsored the Crypto Consumer Protection Act, then filed his own financial disclosure the only way he knew how: as a Word document named FINAL_final_v7_REAL.
 
 ## How it works
 

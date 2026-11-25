@@ -5,7 +5,7 @@ import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 
 const ENTRY =
-  "The senator who wrote the bill criminalizing AI deepfakes still cannot turn a document into a PDF, so he emails his staff a photo of his monitor instead.";
+  "He sponsored the Crypto Consumer Protection Act, then filed his own financial disclosure the only way he knew how: as a Word document named FINAL_final_v7_REAL.";
 
 execFileSync("node", ["main.ts"], { cwd: import.meta.dirname, stdio: "inherit" });
 const out = readFileSync("/output/entry.txt", "utf8");
