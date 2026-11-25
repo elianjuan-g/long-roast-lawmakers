@@ -1,0 +1,1 @@
+{"description":"One-line satirical roast for the make.fun bounty: lawmakers who regulate AI but cannot convert a file to PDF.","engines":{"node":">=22"},"license":"MIT","main":"main.ts","name":"long-roast-lawmakers","private":false,"scripts":{"check":"node check.mjs","start":"node main.ts"},"type":"module","version":"1.0.0"}
